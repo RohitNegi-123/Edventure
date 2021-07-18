@@ -1,0 +1,21 @@
+.table-container{
+    max-width: 1500px;
+    padding: 50px 50px 50px 50px ;
+    margin: 200px 0 50px 150px;
+    
+    
+}
+
+table{
+    width: 100%;
+    
+}
+
+
+ h1{
+    font-weight: 800;
+    font-family: cursive;
+    margin-bottom: 20px;
+    color: #6e6d6d;
+}
+

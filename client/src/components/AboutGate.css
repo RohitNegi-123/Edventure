@@ -1,0 +1,40 @@
+.gate-container{
+    max-width: 1500px;
+    padding: 50px 50px 50px 50px ;
+    margin: 20px 0 0px 150px;
+    
+}
+
+.gate-wrapper{
+    background:rgba(250, 244, 245, 0.4);
+    padding: 10px 50px 20px 20px ;
+    margin: 0 0 0 0;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px  rgb(248, 236, 244);
+
+}
+
+.gate-heading{
+    
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: 200;
+    font-stretch: ultra-expanded;
+    padding-bottom: 0px;
+    color: rgb(240, 116, 14);
+    
+   
+
+}
+
+.gate-container h2{
+    color: rgb(153, 12, 12);
+    font-size: 25px;
+}
+
+.gate-desc{
+    
+    font-size: 22px;
+    line-height: 2;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: rgba(6, 54, 105,0.7);
+}

@@ -1,0 +1,116 @@
+.formStyle{
+    max-width: 800px;
+    padding: 10px 30px;
+    
+    background: #f4f7f8;
+    border-radius: 8px;
+    margin-left: 20px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.formStyle legend{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: rgba(6,105, 37, 0.7);
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 2px solid #0e9e3c ;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    
+}
+
+.formStyle label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin:0px 0px 5px 0px;
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+    color: #F072A9;
+    text-shadow: 1px 1px 1px #fff;
+
+}
+
+
+
+.formStyle input[type="text"],
+.formStyle input[type="number"],
+.formStyle input[type="email"]{
+    border-radius: 4px;
+    border: 1px solid #ded7d7;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+   text-align: center;
+   
+    background: rgba(255 ,255,255,0.3);
+    
+    width: 100%;
+    outline: 0;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f2f4f5;
+    color: #8a97a0;
+    -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.3) inset;
+    box-shadow: 0 1px 0 rgba(0 ,0,0,0.03);
+    margin-bottom: 30px;
+    
+
+
+}
+
+.formStyle input[type="text"]:focus,
+.formStyle input[type="number"]:focus,
+.formStyle input[type="email"]:focus{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background: rgba(255 ,255,255,0.3);
+    background-color:#dbd7d7;
+    color: #0a0a0a;
+   
+     
+    
+
+
+}
+
+.formStyle input[type="submit"],
+.formStyle input[type="button"]{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: cornflowerblue;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #4d83e8;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.formStyle input[type="submit"]:hover,
+.formStyle input[type="button"]:hover
+{
+    background: #1b60e0;
+    border :1px solid #1b60e0;
+}
+
+
+
+@media screen and (max-width:991px){
+    .formStyle label{
+        
+        display: block;
+        width: 100%;
+        
+    
+    }
+   
+    
+}

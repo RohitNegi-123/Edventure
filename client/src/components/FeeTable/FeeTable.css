@@ -1,0 +1,84 @@
+.container-table{
+    max-width: 1500px;
+    padding: 50px 50px 50px 50px ;
+    margin: 100px 0 50px 150px;
+    
+}
+
+.fee-table table,th,td{
+    border: 1px solid #969393;
+    text-align: center;
+    background: #f0e9e9;
+   
+    
+}
+
+.fee-table th{
+    padding: 25px;
+    color: #7a7676;
+    font-weight: 900;
+    font-size: 20px;
+    background: #ebe6e6;
+    font-family: cursive
+   
+}
+
+.fee-table td{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: system-ui;
+    color: #6e6d6d;
+}
+
+.sub-col tr td{
+ 
+   margin: 0;
+   border:none;
+    
+    
+}
+
+  h1{
+    font-weight: 800;
+    font-family: cursive;
+    margin-bottom: 20px;
+    color: #6e6d6d;
+}
+
+.fee-table span{
+    color: red;
+    font-weight: 550;
+}
+
+.courseName{
+   min-width: 5em;
+   padding: 1.2rem 1rem 1.2rem 1rem;
+   font-size: 2rem;
+   font-weight: 700;
+   
+
+   
+}
+
+.dark-btn{
+    background: rgb(16, 16, 65);
+    color: white;
+}
+
+.light-btn{
+    background: rgb(176, 176, 179);
+    color: black;
+}
+
+.courseWrapper{
+    display: grid;
+    height: 100px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+      
+  
+
+}

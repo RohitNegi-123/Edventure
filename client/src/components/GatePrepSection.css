@@ -1,0 +1,66 @@
+.prep-container{
+    max-width: 1500px;
+    padding: 50px 50px 50px 50px ;
+    margin: 10px 0 250px 150px;
+    
+}
+
+.prep-wrapper{
+    background:rgba(204, 234, 240,0.4);
+    padding: 50px 50px 50px 60px ;
+    margin: 0 0 0 0;
+    
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px  rgba(204, 234, 240,1);
+
+}
+.prep-heading{
+    text-align: center;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: 200;
+    font-stretch: ultra-expanded;
+    padding-bottom: 0px;
+    color: rgba(14, 123, 240,1);
+    
+   
+
+}
+.prep-list{
+    list-style-type: circle;
+    font-size: 22px;
+    line-height: 2.4;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: rgba(6, 54, 105,0.7);
+}
+
+.prep-hr{
+    
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(7, 47, 247);
+    border-width: 1px 0 0 0;
+    border-radius: 20px
+
+
+}
+.prep-hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(7, 47, 247);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+#prep-brand{
+    
+    text-shadow: 5px 5px 15px rgba(14, 123, 240,0.5);
+}
+
+#prep-subjects{
+    
+    text-shadow: 5px 5px 15px rgba(20, 20, 20,0.5);
+}

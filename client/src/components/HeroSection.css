@@ -1,0 +1,277 @@
+.home__hero-section{
+    color: #fff;
+    padding: 160px 0;
+    margin-top:-19.7px;
+    height:790px;
+    background-color: rgb(48, 173, 75);
+
+    /* position:absolute; */
+}
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    /* background:lightgray; */
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .flip {
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -ms-perspective: 500px;
+    perspective: 500px;
+    top: 50%;
+    left: 50%;
+    /* margin: -24px 0 0 -80px;
+     */
+     margin-top: 100px;
+     border-radius: 15px;
+  }
+  .flip a {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(-25px);
+    -moz-transform: translateZ(-25px);
+    -o-transform: translateZ(-25px);
+    -ms-transform: translateZ(-25px);
+    transform: translateZ(-25px);
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    -o-transition: -o-transform 0.3s;
+    -ms-transition: -ms-transform 0.3s;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  .flip a .front,
+  .flip a .back {
+    margin: 0;
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0.4em;
+  }
+  .flip a .front {
+    background-color:white;
+    border-radius: 9px;
+    color:green;
+    font-family:sans-serif;
+    /* font-weight: bolder; */
+    -webkit-transform: rotateY(0) translateZ(24px);
+    -moz-transform: rotateY(0) translateZ(24px);
+    -o-transform: rotateY(0) translateZ(24px);
+    -ms-transform: rotateY(0) translateZ(24px);
+    transform: rotateY(0) translateZ(24px);
+  }
+  .flip a .back {
+    background-color:white;
+    border-radius: 10px;
+    border:1px solid green;
+    border-style: double;
+    color:whitesmoke;
+    -webkit-transform: rotateX(90deg) translateZ(24px);
+    -moz-transform: rotateX(90deg) translateZ(24px);
+    -o-transform: rotateX(90deg) translateZ(24px);
+    -ms-transform: rotateX(90deg) translateZ(24px);
+    transform: rotateX(90deg) translateZ(24px);
+    overflow: hidden;
+  }
+  .flip a .back:after {
+    content: '';
+    position: absolute;
+    top: -32%;
+    left: -10%;
+    width: 120%;
+    height: 50%;
+    background:lightgrey;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transition-delay: 0.15s;
+    -moz-transition-delay: 0.15s;
+    -o-transition-delay: 0.15s;
+    -ms-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+  }
+  .flip a:hover {
+    -webkit-transform: translateZ(-24px) rotateX(-90deg);
+    -moz-transform: translateZ(-24px) rotateX(-90deg);
+    -o-transform: translateZ(-24px) rotateX(-90deg);
+    -ms-transform: translateZ(-24px) rotateX(-90deg);
+    transform: translateZ(-24px) rotateX(-90deg);
+  }
+  .flip a:hover .front {
+    background:pink;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+  }
+  .flip a:hover .back {
+    color:green;
+    -webkit-transition: color 0.4s linear;
+    -moz-transition: color 0.4s linear;
+    -o-transition: color 0.4s linear;
+    -ms-transition: color 0.4s linear;
+    transition: color 0.4s linear;
+    background: #fff;
+  }
+  .flip a:hover .back:after {
+    -webkit-transform: rotate(6deg) translate(100px, -18px);
+    -moz-transform: rotate(6deg) translate(100px, -18px);
+    -o-transform: rotate(6deg) translate(100px, -18px);
+    -ms-transform: rotate(6deg) translate(100px, -18px);
+    transform: rotate(6deg) translate(100px, -18px);
+  }
+       
+    
+
+.home__hero-section::before {    
+    content: "";
+    background-image:url( "Images/ralston-smith-sEgodrJdMGw-unsplash.jpg") ;
+    background-size:cover;
+    position: absolute;
+    height:750px;
+    top: 0px;
+    right: 0px;
+    /* margin-top:-20px; */
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+    background-color: turquoise;
+}
+.home__hero-row{
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    /* width:20px; */
+    margin-right: 550px;
+}
+.row{
+    display: flex;
+    margin: 0 -15px -15px -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
+
+.col{
+    margin-bottom: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* flex: 1; */
+    /* max-width: 50%; */
+    /* flex-basis: 50%; */
+
+}
+
+.home__hero-text-wrapper{
+    max-width: 540px;
+    padding-top: 0;
+    /* margin-top: -20px; */
+    padding-bottom: 60px;
+    
+}
+
+.top-line{
+    color: #f00946;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.heading{
+    margin-bottom: 24px;
+    font-size: 47px;
+    margin-right: 125px;
+    text-align: center;
+    margin-left: -15px;
+    width: 850px;
+    font-family:sans-serif;
+    text-transform:uppercase;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #f7f8fa;
+}
+
+.dark{
+    color: #1c2237;
+}
+
+.darkBg{
+    background-color: #1c2237;
+}
+
+.home__hero-subtitle{
+    max-width: 750px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    /* margin-left: 10px; */
+}
+
+.home__hero-img-wrapper{
+    max-width: 555px;
+}
+
+.home__hero-img{
+    max-width: 95%;
+    margin: 0 0 0 10px;
+    padding-right: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (max-width:991px){
+    .container{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .home__hero-text-wrapper{
+        padding-bottom: 65px;
+    }
+
+    .col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
