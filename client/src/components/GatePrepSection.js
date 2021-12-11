@@ -1,12 +1,12 @@
 import React from 'react';
 import './GatePrepSection.css';
 
- function GatePrepSection() {
-     
+function GatePrepSection() {
+
     return (
         <div className="prep-container">
             <h1 className="prep-heading">Kick-Start Your Preparation With <span id="prep-brand">Eduventure</span></h1>
-            <hr className="prep-hr"/>
+            <hr className="prep-hr" />
             <div className="prep-wrapper">
                 <ul className="prep-list">
                     <li>We are your one step revolution for GATE.</li>
@@ -15,7 +15,7 @@ import './GatePrepSection.css';
                     <li>Streams offered- <span id="prep-subjects">CS, Mech, CH, ECE</span></li>
                 </ul>
             </div>
-            
+
         </div>
     )
 }
